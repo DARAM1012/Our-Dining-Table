@@ -1,0 +1,30 @@
+@import './base.css';
+
+#app {
+  width: 100%; /* 화면 전체 너비 사용 */
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+  display: flex; /* 플렉스 레이아웃으로 변경 */
+  flex-direction: column; /* 위에서 아래로 배치 */
+}
+
+a,
+.header {
+  text-decoration: none;
+  color: #616161;
+  transition: 0.4s;
+  /* padding: 3px; */
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: block; /* 중앙 정렬 문제 제거 */
+  }
+
+  #app {
+    padding: 0 0rem;
+    /* 기존 레이아웃 문제 해결 */
+  }
+}
