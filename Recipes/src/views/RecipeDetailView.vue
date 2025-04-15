@@ -174,26 +174,9 @@ onMounted(() => {
     -webkit-box-pack: justify;
     justify-content: space-between;
 }
-.AHWGF {
-    margin-bottom: 8px;
-    color: rgb(0, 0, 0);
-    font-weight: normal;
-    font-family: "Noto Serif KR", serif, Helvetica, "Helvetica Neue", Arial;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0px;
-}
-.kIVrZW {
-    font-family: "Noto Serif KR", serif, Helvetica, "Helvetica Neue", Arial;
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 0px;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-}
+
 .kgiNry {
-    display: grid
-;
+    display: grid;
     align-items: flex-start;
     grid-template-columns: 48px 48px;
 }
