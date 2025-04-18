@@ -59,7 +59,7 @@ const goToPage = page => {
               />
               <div
                 class="RecipeListstyle__CardGredient-sc-1s9b4ly-3 hUapsG"
-              ></div>
+              >
               <div class="RecipeListstyle__CardMeta-sc-1s9b4ly-6 iFMKeY">
                 <p class="RecipeListstyle__CardSubTitle-sc-1s9b4ly-7 hwxlrw">
                   바다의 맛 그대로!
@@ -67,7 +67,8 @@ const goToPage = page => {
                 <p class="RecipeListstyle__CardTitle-sc-1s9b4ly-12 eMHKwY">
                   매생이전
                 </p>
-              </div>
+              </div></div>
+
             </a>
           </div>
           <div class="RecipeListstyle__CardSm-sc-1s9b4ly-9 bSdIJY">
@@ -80,7 +81,7 @@ const goToPage = page => {
               />
               <div
                 class="RecipeListstyle__CardSmGredient-sc-1s9b4ly-4 eDwCCr gredient"
-              ></div>
+              >
               <div class="RecipeListstyle__CardSmMeta-sc-1s9b4ly-10 dHZATN">
                 <p class="RecipeListstyle__CardSmSubTitle-sc-1s9b4ly-11 cgGeDp">
                   향긋한 과즙이 가득
@@ -89,6 +90,8 @@ const goToPage = page => {
                   한라봉잼
                 </p>
               </div>
+            </div>
+
             </a>
           </div>
           <div class="RecipeListstyle__CardSm-sc-1s9b4ly-9 bSdIJY">
@@ -101,8 +104,7 @@ const goToPage = page => {
               />
               <div
                 class="RecipeListstyle__CardSmGredient-sc-1s9b4ly-4 eDwCCr1 gredient"
-              ></div>
-              <div class="RecipeListstyle__CardSmMeta-sc-1s9b4ly-10 dHZATN1">
+              >              <div class="RecipeListstyle__CardSmMeta-sc-1s9b4ly-10 dHZATN1">
                 <p
                   class="RecipeListstyle__CardSmSubTitle-sc-1s9b4ly-11 cgGeDp1"
                 >
@@ -112,6 +114,8 @@ const goToPage = page => {
                   우엉김밥
                 </p>
               </div>
+            </div>
+
             </a>
           </div>
           <div class="RecipeListstyle__Card-sc-1s9b4ly-5 bHqDkK">
@@ -124,7 +128,7 @@ const goToPage = page => {
               />
               <div
                 class="RecipeListstyle__CardSmGredient-sc-1s9b4ly-4 eDwCCr2 gredient"
-              ></div>
+              >
               <div class="RecipeListstyle__CardSmMeta-sc-1s9b4ly-10 dHZATN2">
                 <p
                   class="RecipeListstyle__CardSmSubTitle-sc-1s9b4ly-11 cgGeDp2"
@@ -135,6 +139,8 @@ const goToPage = page => {
                   치즈달걀토스트
                 </p>
               </div>
+            </div>
+
             </a>
           </div>
         </div>
@@ -452,18 +458,18 @@ h2 {
 /* 매생이전 블랙커버 */
 .hUapsG {
   position: absolute;
-  top: 74%;
-  left: 16.3%;
-  width: 72vh;
-  height: calc(50%);
+  top: 27.8%;
+  left: 29.9%;
+  width: 39.3vh;
+  height: calc(40%);
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 }
 
 /* 매생이전 큰 div */
 .iFMKeY {
   position: absolute;
-  left: 19%;
-  top: 113%;
+  left: 9%;
+  top: 83%;
   color: rgb(255, 255, 255);
 }
 
@@ -489,8 +495,8 @@ h2 {
 /* 한라봉 큰 div */
 .dHZATN {
   position: absolute;
-  top: 78%;
-  left: 52%;
+  top: 65%;
+  left: 10%;
   bottom: 0px;
   color: rgb(255, 255, 255);
   text-align: left;
@@ -499,10 +505,10 @@ h2 {
 /* 한라봉 블랙 커버 */
 .eDwCCr {
   position: absolute;
-  bottom: 13.5%;
-  left: 50.5%;
-  width: 34.6vh;
-  height: calc(30%);
+  bottom: 52.7%;
+  left: 50.3%;
+  width: 19vh;
+  height: calc(15%);
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 }
 
@@ -528,8 +534,8 @@ h2 {
 /* 우엉김밥 큰 div */
 .dHZATN1 {
   position: absolute;
-  top: 78%;
-  left: 69%;
+  top: 65%;
+  left: 10%;
   bottom: 0px;
   color: rgb(255, 255, 255);
   text-align: left;
@@ -538,10 +544,10 @@ h2 {
 /* 우엉김밥 블랙 커버 */
 .eDwCCr1 {
   position: absolute;
-  bottom: 13.5%;
-  left: 67.8%;
-  width: 34.3vh;
-  height: calc(30%);
+  bottom: 52.7%;
+  left: 60.6%;
+  width: 19vh;
+  height: calc(15%);
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 }
 
@@ -567,18 +573,18 @@ h2 {
 /* 치즈달걀토스트 블랙 커버 */
 .eDwCCr2 {
   position: absolute;
-  top: 91.7%;
-  left: 50.5%;
-  width: 71.9vh;
-  height: calc(32.3%);
+  top: 50.5%;
+  left: 50.3%;
+  width: 39.4vh;
+  height: calc(17.3%);
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
 }
 
 /* 치즈달걀토스트 큰 div */
 .dHZATN2 {
   position: absolute;
-  top: 112%;
-  left: 52%;
+  top: 68%;
+  left: 3.8%;
   bottom: 0px;
   color: rgb(255, 255, 255);
   text-align: left;
@@ -998,9 +1004,10 @@ video {
 @media (min-width: 1024px) {
   .eDwCCr {
     position: absolute;
-    /* top: 0px; */
-    /* width: 100%;
-    height: 100%; */
+    top: 61.5vh;
+    left: 110.5vh;
+    width: 15.9%;
+    height: 25%;
   }
 }
 
