@@ -251,34 +251,12 @@ const goToPage = page => {
           <li class="RecipeListstyle__Category-sc-1s9b4ly-17 erDeOn">
             모두보기
           </li>
-          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">
-            메인요리
-          </li>
-          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">밑반찬</li>
-          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">간식</li>
-          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">
-            간단요리
-          </li>
-          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">
-            초대요리
-          </li>
-          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">채식</li>
-          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">한식</li>
-          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">양식</li>
-          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">일식</li>
-          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">중식</li>
-          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">퓨전</li>
-          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">분식</li>
-          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">안주</li>
-          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">베이킹</li>
-          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">
-            다이어트
-          </li>
-          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">도시락</li>
-          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">키토</li>
-          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">
-            오븐 요리
-          </li>
+          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">반찬</li>
+          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">국&찌개</li>
+          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">후식</li>
+          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">일품</li>
+          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">밥</li>
+          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">기타</li>
         </ul>
         <div class="RecipeListstyle__Dropdown-sc-1s9b4ly-18 iZVfOF">
           <div class="styles__Sorting-sc-1ui0xdi-5 ilJiIZ">
@@ -423,7 +401,7 @@ h1::after {
   background-color: rgb(0, 0, 0);
 }
 
-h2 {
+.class h2 {
   font-weight: normal;
   font-family: 'Noto Serif KR', serif, Helvetica, 'Helvetica Neue', Arial;
   font-size: 18.2px;
@@ -756,7 +734,7 @@ video {
   max-width: 650px;
   margin: 80px 0px 40px;
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   border-top: 1px solid rgb(147, 112, 98);
   border-left: 1px solid rgb(147, 112, 98);
 }
