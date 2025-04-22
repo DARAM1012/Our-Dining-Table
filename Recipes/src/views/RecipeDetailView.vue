@@ -156,6 +156,7 @@ const right = computed(() => ingredients.value.slice(half.value))
 }
 
 .jyPkMJ h2{
+    width: 5.9vh;
     font-family: "Noto Serif KR", serif, Helvetica, "Helvetica Neue", Arial;
     font-size: 18px;
     line-height: 28px;
@@ -230,7 +231,7 @@ const right = computed(() => ingredients.value.slice(half.value))
 .kgiNry {
     display: grid;
     align-items: flex-start;
-    grid-template-columns: 48px 48px;
+    grid-template-columns: 48px;
 }
 .eEAHdy {
     position: relative;
