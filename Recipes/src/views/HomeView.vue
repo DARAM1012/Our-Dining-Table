@@ -57,18 +57,11 @@ const goToPage = page => {
                 class="RecipeListstyle__CardImage-sc-1s9b4ly-14 iNbIQd"
                 style="width: 500px; height: 500px"
               />
-              <div
-                class="RecipeListstyle__CardGredient-sc-1s9b4ly-3 hUapsG"
-              >
-              <div class="RecipeListstyle__CardMeta-sc-1s9b4ly-6 iFMKeY">
-                <p class="RecipeListstyle__CardSubTitle-sc-1s9b4ly-7 hwxlrw">
-                  바다의 맛 그대로!
-                </p>
-                <p class="RecipeListstyle__CardTitle-sc-1s9b4ly-12 eMHKwY">
-                  매생이전
-                </p>
-              </div></div>
-
+              <div class="gredient-overlay"></div>
+    <div class="meta-overlay">
+      <p class="hwxlrw">바다의 맛 그대로!</p>
+      <p class="eMHKwY">매생이전</p>
+    </div>
             </a>
           </div>
           <div class="RecipeListstyle__CardSm-sc-1s9b4ly-9 bSdIJY">
@@ -79,20 +72,12 @@ const goToPage = page => {
                 class="RecipeListstyle__CardImage-sc-1s9b4ly-14 RecipeListstyle__CardMdImage-sc-1s9b4ly-15 gZeRDV"
                 style="width: 240px; height: 240px"
               />
-              <div
-                class="RecipeListstyle__CardSmGredient-sc-1s9b4ly-4 eDwCCr gredient"
-              >
-              <div class="RecipeListstyle__CardSmMeta-sc-1s9b4ly-10 dHZATN">
-                <p class="RecipeListstyle__CardSmSubTitle-sc-1s9b4ly-11 cgGeDp">
-                  향긋한 과즙이 가득
-                </p>
-                <p class="RecipeListstyle__CardSmTitle-sc-1s9b4ly-13 kHjRDb">
-                  한라봉잼
-                </p>
-              </div>
-            </div>
-
-            </a>
+              <div class="gredient-overlay"></div>
+    <div class="meta-overlay">
+      <p class="hwxlrw">향긋한 과즙이 가득</p>
+      <p class="eMHKwY">한라봉잼</p>
+    </div>
+              </a>
           </div>
           <div class="RecipeListstyle__CardSm-sc-1s9b4ly-9 bSdIJY">
             <a href="/recipes/uhMZkrCGwHwek4RtM5bcwKYb?location=recipe_home"
@@ -102,20 +87,11 @@ const goToPage = page => {
                 class="RecipeListstyle__CardImage-sc-1s9b4ly-14 RecipeListstyle__CardMdImage-sc-1s9b4ly-15 gZeRDV"
                 style="width: 240px; height: 240px"
               />
-              <div
-                class="RecipeListstyle__CardSmGredient-sc-1s9b4ly-4 eDwCCr1 gredient"
-              >              <div class="RecipeListstyle__CardSmMeta-sc-1s9b4ly-10 dHZATN1">
-                <p
-                  class="RecipeListstyle__CardSmSubTitle-sc-1s9b4ly-11 cgGeDp1"
-                >
-                  자꾸만 손이 가는 맛
-                </p>
-                <p class="RecipeListstyle__CardSmTitle-sc-1s9b4ly-13 kHjRDb1">
-                  우엉김밥
-                </p>
-              </div>
-            </div>
-
+              <div class="gredient-overlay"></div>
+    <div class="meta-overlay">
+      <p class="hwxlrw">자꾸만 손이 가는 맛</p>
+      <p class="eMHKwY">우엉김밥</p>
+    </div>
             </a>
           </div>
           <div class="RecipeListstyle__Card-sc-1s9b4ly-5 bHqDkK">
@@ -126,21 +102,12 @@ const goToPage = page => {
                 class="RecipeListstyle__CardImage-sc-1s9b4ly-14 RecipeListstyle__CardMdImage-sc-1s9b4ly-15 gZeRDV"
                 style="width: 500px; height: 240px"
               />
-              <div
-                class="RecipeListstyle__CardSmGredient-sc-1s9b4ly-4 eDwCCr2 gredient"
-              >
-              <div class="RecipeListstyle__CardSmMeta-sc-1s9b4ly-10 dHZATN2">
-                <p
-                  class="RecipeListstyle__CardSmSubTitle-sc-1s9b4ly-11 cgGeDp2"
-                >
-                  겉바속촉 달걀 레시피
-                </p>
-                <p class="RecipeListstyle__CardSmTitle-sc-1s9b4ly-13 kHjRDb2">
-                  치즈달걀토스트
-                </p>
-              </div>
-            </div>
 
+              <div class="gredient-overlay"></div>
+    <div class="meta-overlay">
+      <p class="hwxlrw">겉바속촉 달걀 레시피</p>
+      <p class="eMHKwY">치즈달걀토스트</p>
+    </div>
             </a>
           </div>
         </div>
@@ -393,6 +360,8 @@ const goToPage = page => {
 </template>
 
 <style>
+
+
 h1 {
   font-family: 'Noto Serif KR', serif, Helvetica, 'Helvetica Neue', Arial;
   font-size: 23.4px;
@@ -491,6 +460,40 @@ h2 {
   letter-spacing: 0.25px;
   font-weight: 500;
 }
+
+/* 카드 전체는 상대 위치 기준 */
+.RecipeListstyle__Card-sc-1s9b4ly-5,
+.RecipeListstyle__CardSm-sc-1s9b4ly-9 {
+  position: relative;
+  overflow: hidden;
+}
+
+/* 블랙 그라데이션 오버레이 */
+.gredient-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 30%;
+  width: 98%;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+  z-index: 1;
+}
+
+/* 텍스트 메타 영역 */
+.meta-overlay {
+  position: absolute;
+  bottom: 8%;
+  left: 6%;
+  color: white;
+  z-index: 2;
+  text-align: left;
+}
+
+.meta-overlay p {
+  margin: 0;
+  line-height: 1.4;
+}
+
 
 /* 한라봉 큰 div */
 .dHZATN {
