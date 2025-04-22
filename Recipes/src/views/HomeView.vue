@@ -58,10 +58,10 @@ const goToPage = page => {
                 style="width: 500px; height: 500px"
               />
               <div class="gredient-overlay"></div>
-    <div class="meta-overlay">
-      <p class="hwxlrw">바다의 맛 그대로!</p>
-      <p class="eMHKwY">매생이전</p>
-    </div>
+              <div class="meta-overlay">
+                <p class="hwxlrw">바다의 맛 그대로!</p>
+                <p class="eMHKwY">매생이전</p>
+              </div>
             </a>
           </div>
           <div class="RecipeListstyle__CardSm-sc-1s9b4ly-9 bSdIJY">
@@ -73,11 +73,11 @@ const goToPage = page => {
                 style="width: 240px; height: 240px"
               />
               <div class="gredient-overlay"></div>
-    <div class="meta-overlay">
-      <p class="hwxlrw">향긋한 과즙이 가득</p>
-      <p class="eMHKwY">한라봉잼</p>
-    </div>
-              </a>
+              <div class="meta-overlay">
+                <p class="hwxlrw">향긋한 과즙이 가득</p>
+                <p class="eMHKwY">한라봉잼</p>
+              </div>
+            </a>
           </div>
           <div class="RecipeListstyle__CardSm-sc-1s9b4ly-9 bSdIJY">
             <a href="/recipes/uhMZkrCGwHwek4RtM5bcwKYb?location=recipe_home"
@@ -88,10 +88,10 @@ const goToPage = page => {
                 style="width: 240px; height: 240px"
               />
               <div class="gredient-overlay"></div>
-    <div class="meta-overlay">
-      <p class="hwxlrw">자꾸만 손이 가는 맛</p>
-      <p class="eMHKwY">우엉김밥</p>
-    </div>
+              <div class="meta-overlay">
+                <p class="hwxlrw">자꾸만 손이 가는 맛</p>
+                <p class="eMHKwY">우엉김밥</p>
+              </div>
             </a>
           </div>
           <div class="RecipeListstyle__Card-sc-1s9b4ly-5 bHqDkK">
@@ -100,14 +100,14 @@ const goToPage = page => {
                 src="https://static.wtable.co.kr/image/production/service/recipe/973/619e3d2f-dd53-45c4-a0c9-a2f3bd9f3b37.jpg?size=800x800"
                 alt="치즈달걀토스트"
                 class="RecipeListstyle__CardImage-sc-1s9b4ly-14 RecipeListstyle__CardMdImage-sc-1s9b4ly-15 gZeRDV"
-                style="width: 500px; height: 240px"
+                style="width: 507px; height: 240px"
               />
 
               <div class="gredient-overlay"></div>
-    <div class="meta-overlay">
-      <p class="hwxlrw">겉바속촉 달걀 레시피</p>
-      <p class="eMHKwY">치즈달걀토스트</p>
-    </div>
+              <div class="meta-overlay">
+                <p class="hwxlrw">겉바속촉 달걀 레시피</p>
+                <p class="eMHKwY">치즈달걀토스트</p>
+              </div>
             </a>
           </div>
         </div>
@@ -211,6 +211,8 @@ const goToPage = page => {
           <h1>OUR RECIPES</h1>
           <h2>우리의식탁과 맛있는 음식을 만들어 보세요.</h2>
         </div>
+        <div class="SearchDetailstyle__Form-b6u7ei-2 bnZfjV" ><input type="search" placeholder="검색어를 입력해주세요." value=""><div style="display: contents;"><svg width="20px" height="20px" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m11.888 11.995 7.07 7.07M12.113 2.74a6.704 6.704 0 1 1-9.481 9.482 6.704 6.704 0 0 1 9.481-9.482Z" stroke="#000"></path></svg></div></div>
+
         <ul
           class="RecipeListstyle__Categories-sc-1s9b4ly-16 fjqwFa"
           style="padding-left: 0px"
@@ -219,7 +221,9 @@ const goToPage = page => {
             모두보기
           </li>
           <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">반찬</li>
-          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">국&찌개</li>
+          <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">
+            국&찌개
+          </li>
           <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">후식</li>
           <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">일품</li>
           <li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">밥</li>
@@ -242,69 +246,67 @@ const goToPage = page => {
             class="infinite-scroll-component"
             style="height: auto; overflow: auto"
           >
-          <div class="RecipeListstyle__RecipeList-sc-1s9b4ly-20 eKgfiL">
-  <router-link :to="`/recipes/3`">
-    <div class="RecipeItemstyle__Layout-sc-1gt7vz8-0 erZvWP">
-      <img
-        src="https://static.wtable.co.kr/image/production/service/recipe/2786/7f7338d6-2dff-4dd7-9034-bb11eb2c440f.jpg?size=500x500"
-        class="RecipeItemstyle__ImageStyle-sc-1gt7vz8-1 duQJWI"
-      />
-      <p class="RecipeItemstyle__SubTitle-sc-1gt7vz8-2 LxJcT">
-        대파의 풍미와 촉촉한 닭고기의 만남
-      </p>
-      <p class="RecipeItemstyle__Title-sc-1gt7vz8-3 hpYiJK">
-        닭고기 대파덮밥
-      </p>
+            <div class="RecipeListstyle__RecipeList-sc-1s9b4ly-20 eKgfiL">
+              <router-link :to="`/recipes/3`">
+                <div class="RecipeItemstyle__Layout-sc-1gt7vz8-0 erZvWP">
+                  <img
+                    src="https://static.wtable.co.kr/image/production/service/recipe/2786/7f7338d6-2dff-4dd7-9034-bb11eb2c440f.jpg?size=500x500"
+                    class="RecipeItemstyle__ImageStyle-sc-1gt7vz8-1 duQJWI"
+                  />
+                  <p class="RecipeItemstyle__SubTitle-sc-1gt7vz8-2 LxJcT">
+                    대파의 풍미와 촉촉한 닭고기의 만남
+                  </p>
+                  <p class="RecipeItemstyle__Title-sc-1gt7vz8-3 hpYiJK">
+                    닭고기 대파덮밥
+                  </p>
+                </div>
+              </router-link>
 
-    </div>
-  </router-link>
+              <router-link :to="`/recipes/2`">
+                <div class="RecipeItemstyle__Layout-sc-1gt7vz8-0 erZvWP">
+                  <img
+                    src="https://static.wtable.co.kr/image/production/service/recipe/2787/3421dff1-e9ce-427c-a732-578d4aebeed3.jpg?size=500x500"
+                    class="RecipeItemstyle__ImageStyle-sc-1gt7vz8-1 duQJWI"
+                  />
+                  <p class="RecipeItemstyle__SubTitle-sc-1gt7vz8-2 LxJcT">
+                    아삭한 오이와 고소한 참치마요의 만남
+                  </p>
+                  <p class="RecipeItemstyle__Title-sc-1gt7vz8-3 hpYiJK">
+                    오이참치샌드위치
+                  </p>
+                </div>
+              </router-link>
 
-  <router-link :to="`/recipes/2`">
-    <div class="RecipeItemstyle__Layout-sc-1gt7vz8-0 erZvWP">
-      <img
-        src="https://static.wtable.co.kr/image/production/service/recipe/2787/3421dff1-e9ce-427c-a732-578d4aebeed3.jpg?size=500x500"
-        class="RecipeItemstyle__ImageStyle-sc-1gt7vz8-1 duQJWI"
-      />
-      <p class="RecipeItemstyle__SubTitle-sc-1gt7vz8-2 LxJcT">
-        아삭한 오이와 고소한 참치마요의 만남
-      </p>
-      <p class="RecipeItemstyle__Title-sc-1gt7vz8-3 hpYiJK">
-        오이참치샌드위치
-      </p>
-    </div>
-  </router-link>
+              <router-link :to="`/recipes/1`">
+                <div class="RecipeItemstyle__Layout-sc-1gt7vz8-0 erZvWP">
+                  <img
+                    src="https://static.wtable.co.kr/image/production/service/recipe/31/a7239b91-c29b-491b-bddd-7202f252338a.jpg?size=500x500"
+                    class="RecipeItemstyle__ImageStyle-sc-1gt7vz8-1 duQJWI"
+                  />
+                  <p class="RecipeItemstyle__SubTitle-sc-1gt7vz8-2 LxJcT">
+                    속풀이 해장용으로 좋은
+                  </p>
+                  <p class="RecipeItemstyle__Title-sc-1gt7vz8-3 hpYiJK">
+                    백합탕
+                  </p>
+                </div>
+              </router-link>
 
-  <router-link :to="`/recipes/1`">
-    <div class="RecipeItemstyle__Layout-sc-1gt7vz8-0 erZvWP">
-      <img
-        src="https://static.wtable.co.kr/image/production/service/recipe/31/a7239b91-c29b-491b-bddd-7202f252338a.jpg?size=500x500"
-        class="RecipeItemstyle__ImageStyle-sc-1gt7vz8-1 duQJWI"
-      />
-      <p class="RecipeItemstyle__SubTitle-sc-1gt7vz8-2 LxJcT">
-        속풀이 해장용으로 좋은
-      </p>
-      <p class="RecipeItemstyle__Title-sc-1gt7vz8-3 hpYiJK">
-        백합탕
-      </p>
-    </div>
-  </router-link>
-
-  <router-link :to="`/recipes/4`">
-    <div class="RecipeItemstyle__Layout-sc-1gt7vz8-0 erZvWP">
-      <img
-        src="https://static.wtable.co.kr/image/production/service/recipe/32/0bbeb615-d79d-461a-84ff-bc8ada30f6e0.jpg?size=500x500"
-        class="RecipeItemstyle__ImageStyle-sc-1gt7vz8-1 duQJWI"
-      />
-      <p class="RecipeItemstyle__SubTitle-sc-1gt7vz8-2 LxJcT">
-        온 가족이 함께 즐기는 꼬치구이
-      </p>
-      <p class="RecipeItemstyle__Title-sc-1gt7vz8-3 hpYiJK">
-        야키토리
-      </p>
-    </div>
-  </router-link>
-</div>
-
+              <router-link :to="`/recipes/4`">
+                <div class="RecipeItemstyle__Layout-sc-1gt7vz8-0 erZvWP">
+                  <img
+                    src="https://static.wtable.co.kr/image/production/service/recipe/32/0bbeb615-d79d-461a-84ff-bc8ada30f6e0.jpg?size=500x500"
+                    class="RecipeItemstyle__ImageStyle-sc-1gt7vz8-1 duQJWI"
+                  />
+                  <p class="RecipeItemstyle__SubTitle-sc-1gt7vz8-2 LxJcT">
+                    온 가족이 함께 즐기는 꼬치구이
+                  </p>
+                  <p class="RecipeItemstyle__Title-sc-1gt7vz8-3 hpYiJK">
+                    야키토리
+                  </p>
+                </div>
+              </router-link>
+            </div>
           </div>
           <div
             class="pagination"
@@ -338,8 +340,6 @@ const goToPage = page => {
 </template>
 
 <style>
-
-
 h1 {
   font-family: 'Noto Serif KR', serif, Helvetica, 'Helvetica Neue', Arial;
   font-size: 23.4px;
@@ -402,23 +402,7 @@ h2 {
   padding-top: 80px;
 }
 
-/* 매생이전 블랙커버 */
-.hUapsG {
-  position: absolute;
-  top: 27.8%;
-  left: 29.9%;
-  width: 39.3vh;
-  height: calc(40%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
-}
 
-/* 매생이전 큰 div */
-.iFMKeY {
-  position: absolute;
-  left: 9%;
-  top: 83%;
-  color: rgb(255, 255, 255);
-}
 
 /* 매생이전 큰제목 */
 .eMHKwY {
@@ -472,27 +456,6 @@ h2 {
   line-height: 1.4;
 }
 
-
-/* 한라봉 큰 div */
-.dHZATN {
-  position: absolute;
-  top: 65%;
-  left: 10%;
-  bottom: 0px;
-  color: rgb(255, 255, 255);
-  text-align: left;
-}
-
-/* 한라봉 블랙 커버 */
-.eDwCCr {
-  position: absolute;
-  bottom: 52.7%;
-  left: 50.3%;
-  width: 19vh;
-  height: calc(15%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
-}
-
 /* 한라봉잼 큰제목 */
 .kHjRDb {
   font-family: 'Noto Serif KR', serif, Helvetica, 'Helvetica Neue', Arial;
@@ -512,25 +475,6 @@ h2 {
   font-weight: 500;
 }
 
-/* 우엉김밥 큰 div */
-.dHZATN1 {
-  position: absolute;
-  top: 65%;
-  left: 10%;
-  bottom: 0px;
-  color: rgb(255, 255, 255);
-  text-align: left;
-}
-
-/* 우엉김밥 블랙 커버 */
-.eDwCCr1 {
-  position: absolute;
-  bottom: 52.7%;
-  left: 60.6%;
-  width: 19vh;
-  height: calc(15%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
-}
 
 /* 우엉김밥 큰제목 */
 .kHjRDb1 {
@@ -549,26 +493,6 @@ h2 {
   line-height: 22px;
   letter-spacing: 0.25px;
   font-weight: 500;
-}
-
-/* 치즈달걀토스트 블랙 커버 */
-.eDwCCr2 {
-  position: absolute;
-  top: 50.5%;
-  left: 50.3%;
-  width: 39.4vh;
-  height: calc(17.3%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
-}
-
-/* 치즈달걀토스트 큰 div */
-.dHZATN2 {
-  position: absolute;
-  top: 68%;
-  left: 3.8%;
-  bottom: 0px;
-  color: rgb(255, 255, 255);
-  text-align: left;
 }
 
 /* 치즈달걀토스트 큰제목 */
@@ -735,7 +659,7 @@ video {
 .fjqwFa {
   width: 100%;
   max-width: 650px;
-  margin: 80px 0px 40px;
+  margin: 40px 0px 40px;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   border-top: 1px solid rgb(147, 112, 98);
@@ -948,6 +872,46 @@ video {
   line-height: 20px;
   letter-spacing: -0.5px;
 }
+
+/* 검색 */
+.bnZfjV {
+    width: 100%;
+    max-width: 480px;
+    margin: 40px 14px 0px;
+    position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.bnZfjV input {
+    display: inline-block;
+    width: 100%;
+    height: 48px;
+    padding: 16px 48px 16px 8px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid rgb(189, 189, 189);
+    background: rgb(255, 255, 255);
+    font-weight: normal;
+    font-family: "Noto Sans KR", Helvetica, "Helvetica Neue", Arial, "sans-serif";
+    font-size: 13px;
+    line-height: 19px;
+    letter-spacing: -0.5px;
+}
+
+input, input:disabled {
+    appearance: none;
+}
+
+.bnZfjV svg {
+    position: absolute;
+    right: 16px;
+    cursor: pointer;
+}
+
 @media (min-width: 1024px) {
   .eKgfiL {
     max-width: 1024px;
